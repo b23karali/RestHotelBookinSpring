@@ -35,7 +35,7 @@ public class ReservationControllerTest {
 
     @Test
     public void getReservations() throws Exception {
-        Date date = DATE_FORMAT.parse("2020-01-01");
+        String date = "2020-01-01";
         List<RoomReservation>  mockReservationList = new ArrayList<>();
         RoomReservation mockRoomReservation = new RoomReservation();
         mockRoomReservation.setLastName("Test");
